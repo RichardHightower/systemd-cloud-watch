@@ -5,13 +5,15 @@ The AWS logs agent copies data from on-disk text log files into [Cloudwatch](htt
 
 This utility reads from the systemd journal and sends the data in batches to Cloudwatch.
 
+This project moved to [Systemd CloudWatch](https://advantageous.github.io/systemd-cloud-watch/).
+
 
 ## Derived
 This is based on [advantageous journald-cloudwatch-logs](https://github.com/advantageous/journald-cloudwatch-logs)
 which was forked from [saymedia journald-cloudwatch-logs](https://github.com/saymedia/journald-cloudwatch-logs).
 
 ## Status
-It is close to being done. 
+DONE! See [Systemd CloudWatch](https://advantageous.github.io/systemd-cloud-watch/).
 
 
 Improvements:
